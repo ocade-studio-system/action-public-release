@@ -7,7 +7,7 @@ async function run() {
     // Récupération des inputs de l'action
     const owner = core.getInput('owner');
     const repository = core.getInput('repository');
-    const token = core.getInput('token');
+    const token = core.getInput('token'); 
     const zipFile = core.getInput('zipFile');
     const newVersion = core.getInput('version');
 
