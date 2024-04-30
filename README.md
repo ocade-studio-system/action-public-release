@@ -1,2 +1,1 @@
-# action-public-release
-Publication d'une release sur un dépôt public.
+# Action Github permettant de publier une release sur un repository Public.

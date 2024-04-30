@@ -1,0 +1,10 @@
+{
+  "name": "action-public-release",
+  "version": "1.0.0",
+  "description": "Action Github permettant de publier une release publique",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

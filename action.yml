@@ -1,0 +1,21 @@
+name: 'Publish Public Release'
+description: "Action permettant de publié un plugin ou un thème sur un dépôt public"
+inputs:
+  owner:
+    description: 'Owner du repository (utilisateur ou organisation)'
+    required: true
+  repository:
+    description: 'Nom du repository'
+    required: true
+  token:
+    description: 'GitHub Token'
+    required: true
+  zipFile:
+    description: 'Fichier zip à publier'
+    required: true
+  version:
+    description: 'Version du plugin ou du thème'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
