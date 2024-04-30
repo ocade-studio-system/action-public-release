@@ -11,7 +11,7 @@ async function run() {
     const zipFile = core.getInput('zipFile');
     const newVersion = core.getInput('version');
 
-    // Authentification à l'API GitHub
+    // Authentification à l'API GitHub 
     const octokit = github.getOctokit(token);
 
     // Création de la release
